@@ -16,7 +16,7 @@ public class Problema03 {
 		// Comprobamos si el número recibido es casi cero
 		 if (num >= 1 || num <= -1 || num == 0) {// El número no es casi cero
 			System.out.println(num + " no es casi cero");
-		} else if (1 > num || num > -1) {// El número es casi cero
+		} else {// El número es casi cero
 			System.out.println(num + " es casi cero");
 		}
 		// Cerramos el escaner
