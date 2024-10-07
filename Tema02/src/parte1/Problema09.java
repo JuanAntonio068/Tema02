@@ -5,20 +5,30 @@ import java.util.Scanner;
 public class Problema09 {
 
 	public static void main(String[] args) {
-
-		Scanner sc=new Scanner(System.in);
-		
+		// Declaramos el escaner
+		Scanner sc = new Scanner(System.in);
+		// Declaramos la variable "jugador1", donde se ve a guardar el valor del primer
+		// jugador
 		String jugador1;
-		
+		// Declaramos la variable "jugador2", donde se ve a guardar el valor del primer
+		// jugador
 		String jugador2;
-		
-		System.out.println("El jugador uno tiene que eligir piedra papel o tijeras");
-		jugador1= sc.nextLine();
-		if (jugador1 equals papel|| jugador1 notequals piedra|| jugador1 notequals tijeras) {
-		System.out.println("El jugador dos tiene que eligir piedra papel o tijeras");
-		jugador2 = sc.nextLine();
-		
+		// Preguntamos a los usuarios cuás es su elección
+		System.out.println("Jugador 1, introduce tu elección (PIEDRA, PAPEL o TIJERA):");
+		jugador1 = sc.nextLine().toUpperCase();
+		System.out.println("Jugador 2, introduce tu elección (PIEDRA, PAPEL o TIJERA):");
+		jugador2 = sc.nextLine().toUpperCase();
+		// Determinar el ganador
+		if (jugador1.equals(jugador2)) {
+			System.out.println("¡Es un empate!");
+		} else if ((jugador1.equals("PIEDRA") && jugador2.equals("TIJERA"))
+				|| (jugador1.equals("PAPEL") && jugador2.equals("PIEDRA"))
+				|| (jugador1.equals("TIJERA") && jugador2.equals("PAPEL"))) {
+			System.out.println("¡Jugador 1 gana!");
+		} else {
+			System.out.println("¡Jugador 2 gana!");
+		}
 
+		sc.close();
 	}
-
 }
