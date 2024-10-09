@@ -18,22 +18,22 @@ public class Problema05 {
 		num2 = sc.nextInt();
 		num3 = sc.nextInt();
 		// Comparamos los números para saber cuál es mayor y cuál es menor
-		if (num1 >= num2 && num1 >= num3) {
-			if (num2 >= num3) {
+		if (num1 >= num2 && num1 >= num3) {// El número 1 es el mayor de todos los números introducidos
+			if (num2 >= num3) {// El número 2 es mayor que el número 3
 				System.out.println(num1 + " > " + num2 + " > " + num3);
-			} else {
+			} else {// El número 3 es mayor que el número 2
 				System.out.println(num1 + " > " + num3 + " > " + num2);
 			}
-		} else if (num2 >= num1 && num2 >= num3) {
-			if (num1 >= num3) {
+		} else if (num2 >= num1 && num2 >= num3) {// El número 2 es el mayor de todos los números introducidos
+			if (num1 >= num3) {// El número 1 es mayor que el número 3
 				System.out.println(num2 + " > " + num1 + " > " + num3);
-			} else {
+			} else {// El número 3 es mayor que el número 1
 				System.out.println(num2 + " > " + num3 + " > " + num1);
 			}
-		} else {
-			if (num1 >= num2) {
+		} else {// El número 3 es el mayor de todos los números introducidos
+			if (num1 >= num2) {// El número 1 es mayor que el número 2
 				System.out.println(num3 + " > " + num1 + " > " + num2);
-			} else {
+			} else {// El número 2 es mayor que el número 1
 				System.out.println(num3 + " > " + num2 + " > " + num1);
 			}
 		}

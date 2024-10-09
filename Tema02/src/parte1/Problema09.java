@@ -19,13 +19,14 @@ public class Problema09 {
 		System.out.println("Jugador 2, introduce tu elección (PIEDRA, PAPEL o TIJERA):");
 		jugador2 = sc.nextLine().toUpperCase();
 		// Determinar el ganador
-		if (jugador1.equals(jugador2)) {
+		if (jugador1.equals(jugador2)) {// La elección es la misma así que termina en empate
 			System.out.println("¡Es un empate!");
 		} else if ((jugador1.equals("PIEDRA") && jugador2.equals("TIJERA"))
 				|| (jugador1.equals("PAPEL") && jugador2.equals("PIEDRA"))
-				|| (jugador1.equals("TIJERA") && jugador2.equals("PAPEL"))) {
+				|| (jugador1.equals("TIJERA") && jugador2.equals("PAPEL"))) { // La elección del jugador 1 gana a la
+																				// elección del jugador 2
 			System.out.println("¡Jugador 1 gana!");
-		} else {
+		} else {// La elección del jugador 2 gana a la elección del jugador 1
 			System.out.println("¡Jugador 2 gana!");
 		}
 
