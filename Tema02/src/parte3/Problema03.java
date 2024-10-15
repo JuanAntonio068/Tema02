@@ -5,6 +5,12 @@ import java.util.Scanner;
 public class Problema03 {
 
 	public static void main(String[] args) {
+		// Prueba 1
+		// Valor de entrada: 30321054
+		// Resultado esperado: Q
+		// Resultado obtenido: Q
+		
+		
 		// Declaramos el escaner
 		Scanner sc = new Scanner(System.in);
 		
