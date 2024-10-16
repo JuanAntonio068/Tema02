@@ -27,10 +27,10 @@ public class Problema05 {
 		// introduzca el usuario
 		int respuesta;
 
-		// Inicializamos la constante "NUM1", donde se va a generar el primer número
+		// Iniciamos la constante "NUM1", donde se va a generar el primer número
 		// aleatorio
 		final int NUM1 = (int) (Math.random() * 100);
-		// Inicializamos la constante "NUM2", donde se va a generar el segundo número
+		// Iniciamos la constante "NUM2", donde se va a generar el segundo número
 		// aleatorio
 		final int NUM2 = (int) (Math.random() * 100);
 

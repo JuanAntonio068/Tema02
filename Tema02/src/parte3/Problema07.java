@@ -33,11 +33,11 @@ public class Problema07 {
 		// con descuento
 		double precioFinal;
 
-		// Inicializamos la constante "DESCUENTO", donde vamos a guardar el descuento
+		// Iniciamos la constante "DESCUENTO", donde vamos a guardar el descuento
 		// aplicado
 		final double DESCUENTO = 0.3;
 
-		// Inicializamos la constante "PRECIO_KILOMETRO", donde vamos a guardar lo que
+		// Iniciamos la constante "PRECIO_KILOMETRO", donde vamos a guardar lo que
 		// vale cada kilómetro
 		final double PRECIO_KILOMETRO = 2.5;
 
