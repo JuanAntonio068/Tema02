@@ -15,7 +15,7 @@ public class Exercise3 {
 		double tallest = 0;
 
 		// Create the variable "lowest"
-		double lowest = -1;
+		double lowest = 0;
 
 		// We ask to the user for a height
 		System.out.println("Tell me the height of one of your classmates");
@@ -26,7 +26,8 @@ public class Exercise3 {
 			
 			if (tallest < height) {// The new height is the tallest
 				tallest = height;
-			} else if (lowest > height) {// The new height is the lowest
+			} 
+			if (lowest > height) {// The new height is the lowest
 				lowest = height;
 			}
 			// We ask for another height 
