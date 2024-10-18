@@ -20,7 +20,7 @@ public class Exercise4 {
 
 		num = sc.nextInt();
 
-		while (num != numRandom || num <= 0) {
+		while (num != numRandom && num != -1) {
 			if (num < numRandom) {// The number is minor
 				System.out.println(num + " is minor than the mystery number");
 			} else if (num > numRandom) {// The number is bigger
