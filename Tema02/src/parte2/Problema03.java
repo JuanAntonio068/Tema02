@@ -7,7 +7,7 @@ public class Problema03 {
 	public static void main(String[] args) {
 		// Declaramos el escaner
 		Scanner sc = new Scanner(System.in);
-		// Declaramos la vairbale "num1",donde vamos a guardar el primer número que
+		// Declaramos la variable "num1",donde vamos a guardar el primer número que
 		// introduzca el usuario
 		int num1;
 		// Declaramos la vairbale "num2",donde vamos a guardar el segundo número que
