@@ -15,21 +15,22 @@ public class Problema07 {
 
 		// Declaramos la variable "primo", donde vamos a verificar si es primo
 		int divisor = 0;
-		// Preguntamos al usuario por número
+		// Preguntamos al usuario por un número
 		System.out.println("Dime un número");
 
 		num = sc.nextInt();
 
 		for (int i = num; i <= 0;) {
 
-			// Preguntamos al usuario por número
+			// Preguntamos al usuario por otro número
 			System.out.println("El número tiene que ser positivo");
 
 			num = sc.nextInt();
 		}
-		for (int i = num; i >1; i--) {
+		for (int i = num; i > 1; i--) {
 
-			if (num % i == 0) {
+			if (num % i == 0) {// El número se divide por un número y si es exacto se le añade que tiene un
+								// divisor más
 				divisor++;
 			}
 		}
