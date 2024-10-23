@@ -41,9 +41,10 @@ public class Problema08 {
 		if (a == b) {// Los números son iguales
 			System.out.println("Los dos números son iguales");
 
-			// Cerramos el escaner
-			sc.close();
 		}
+		
+		// Cerramos el escaner
+		sc.close();
 	}
 
 }
