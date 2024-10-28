@@ -42,7 +42,7 @@ public class Problema08 {
 			System.out.println("Los dos números son iguales");
 
 		}
-		
+
 		// Cerramos el escaner
 		sc.close();
 	}
