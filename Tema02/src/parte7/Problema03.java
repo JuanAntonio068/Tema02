@@ -11,9 +11,9 @@ public class Problema03 {
 		// Resultado obtenido: 1
 
 		// Prueba 2
-		// Valor de entrada: mum1
-		// Resultado esperado:
-		// Resultado obtenido:
+		// Valor de entrada: mum1 = 10 num2 = 20
+		// Resultado esperado: 10
+		// Resultado obtenido: 10
 
 		// Declaramos el escaner
 		Scanner sc = new Scanner(System.in);
@@ -48,12 +48,15 @@ public class Problema03 {
 			menor = num2;
 		}
 
-		for (int i = menor; !(num1 % i == 0) && !(num2 % i == 0); i--) {// En este for se va ir mirando número por
-																		// número, para ver cuál es
+		for (int i = menor; i > 1; i--) {// En este for se va ir mirando número por
+																	// número, para ver cuál es
 			// divisible entre "num1" y "num2" simultaneamente
 
+			//Iniciamos la comparación
+			if (num1 % i == 0 && num2 % i == 0) {// Los dos números son divisibles entre "i"
 			divisor = i;
-
+			break;
+			}
 		}
 
 		// Imprimimos el resultado
