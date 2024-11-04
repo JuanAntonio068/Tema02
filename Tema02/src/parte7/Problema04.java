@@ -57,7 +57,7 @@ public class Problema04 {
 			múltiplo++;
 		}
 		// Imprimimos el resultado
-		System.out.println("El mínimo común divisor de " + num1 + " y " + num2 + " es: " + múltiplo);
+		System.out.println("El mínimo común múltiplo de " + num1 + " y " + num2 + " es: " + múltiplo);
 
 		// Cerramos el escaner
 		sc.close();
